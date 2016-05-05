@@ -1,4 +1,5 @@
-// Helper function that closes mobile nav after clicking anchor link
+// HELPER FUNCTION THAT CLOSES MOBILE NAV AFTER CLICKING ANCHOR LINK
+
 $(function(){ 
      var navMain = $("#nav-main");
      navMain.on("click", "a", null, function () {

@@ -1,5 +1,6 @@
 @import '_variables';
 
+// BASICS
 
 body, html {
     height: 100%;
@@ -10,10 +11,10 @@ body, html {
 
 .anchor{
     display: block;
-//    height: 50px;
-//    margin-top: -50px;
     visibility: hidden;
 }
+
+// JUMBOTRON
 
 .jumbotron {
     margin-top: calc(50px + 4%) !important;
@@ -24,15 +25,12 @@ body, html {
         text-align: center !important;
         color: $deepPurple900;
     }
-    h1 {
-        font-weight: 900 !important;
-    }
+    h1 {font-weight: 900 !important;}
 }
 
-// Overrides Bootstrap Navbar Default
-.navbar-brand {
-    padding: 0 !important;
-}
+// OVERRIDE DEFAULT BOOTSTRAP
+
+.navbar-brand {padding: 0 !important;}
 
 .navbar-inverse {
     background: $deepPurple500 !important;
@@ -40,31 +38,22 @@ body, html {
     
     li a {
         color: white !important;
-        &:hover {
-            background: $deepPurple700 !important;
-        }
+        &:hover {background: $deepPurple700 !important;}
     }
-    .active {
-        background: $deepPurple700 !important; 
-    }
+    .active {background: $deepPurple700 !important; }
 }
 
-.navbar-collapse {
-    border: none;
-}
+.navbar-collapse {border: none;}
 
-// Overrides Navbar Links
-.navbar-inverse .nav .active > a {
-  background: 0 !important; 
-}
+.navbar-inverse .nav .active > a {background: 0 !important;}
 
 .navbar-toggle {
     border: none !important;
     background: none !important;
-    &:hover {
-        background: none !important;
-    }
+    &:hover {background: none !important;}
 }
+
+// SECTION STYLES
 
 .section-title {
     margin-top: 4%;
@@ -79,6 +68,8 @@ body, html {
     }
 }
 
+// CAROUSEL
+
 // CONTROLS THE SPEED IN WHICH THE IMAGES SWITCH
 .carousel-inner
     .item {
@@ -88,14 +79,16 @@ body, html {
     transition: 4s ease-in-out left !important;
 }
 
+// ACTION ITEMS
+
 .col-sm-4 {
     height: 200px !important;
     padding: 4% 4% 0 4%;
     margin-bottom: 4%;
-    a {
-        text-decoration: none;
-    }
+    a {text-decoration: none;}
 }
+
+//TILE STYLE
 
 .tile {
     display: block;
@@ -118,12 +111,11 @@ body, html {
     }
     &:hover {
         background: $deepPurple900;
-        h1 {
-            color: white;
-        }
+        h1 {color: white;}
     }
-    
 }
+
+// FOOTER
 
 footer {
     margin-top: 4%;
@@ -140,20 +132,16 @@ footer {
         }
     }
 }
-.tagline {
-    margin-top: 50px;
-}
+
+.tagline {margin-top: 50px;}
 
 @media only screen and (max-width : 768px) {
-    body {
-    }
+
     .navbar-brand {
         position: absolute !important;
         display: inline-block !important;
         margin: 0 auto !important;
     }
 
-    .tile {
-        margin-bottom: 8% !important;
-    }
+    .tile {margin-bottom: 8% !important;}
 }

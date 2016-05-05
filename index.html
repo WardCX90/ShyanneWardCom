@@ -3,19 +3,23 @@
 <head>
 <!--TITLE -->
     <title>Shyanne Ward</title>
+    
 <!--META TAGS-->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
 <!--STYLES-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.min.css">
+    
 <!--FONTS-->
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50" style="margin-top: 50px;">
+    
 <!--NAVBAR-->
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
@@ -38,22 +42,24 @@
     </nav>
 
 <!--JUMBOTRON-->
-    <div class="jumbotron">
+    <section class="jumbotron">
         <h1>Welcome!</h1> 
         <p>Thank you for taking the time to check out my site. Hopefully I have what you're looking for, but if I don't, please let me know. </p> 
-    </div>
+    </section>
+    
 <!--SECTION TITLE-->
     <span class="anchor" id="spa"></span>
     <div class="section-title">
         <h1>Spa Products - Pink Papaya</h1>
     </div>
+    
 <!--CAROUSEL-->
-    <section id="myCarousel" class="carousel slide" data-ride="carousel">
+    <section id="pinkCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#pinkCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#pinkCarousel" data-slide-to="1"></li>
+            <li data-target="#pinkCarousel" data-slide-to="2"></li>
+            <li data-target="#pinkCarousel" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
             <div class="item active">
@@ -72,16 +78,17 @@
                 <img src="img/restore-collection.jpg" alt="RestoreCollection">
             </div>
         </div>
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <a class="left carousel-control" href="#pinkCarousel" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <a class="right carousel-control" href="#pinkCarousel" role="button" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
     </section>
 
+<!--ACTION ITEMS-->
     <section class="container">
         <div class="row">
             <div class="col-sm-4">
@@ -114,16 +121,13 @@
         <h1>Health Products - Thrive</h1>
     </div>
 <!--CAROUSEL-->
-    <div id="thriveCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
+    <section id="thriveCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#thriveCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#thriveCarousel" data-slide-to="1"></li>
             <li data-target="#thriveCarousel" data-slide-to="2"></li>
             <li data-target="#thriveCarousel" data-slide-to="3"></li>
         </ol>
-
-        <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
                 <img src="img/step1.jpg" alt="Capsules">
@@ -141,8 +145,6 @@
                 <img src="img/plus.jpg" alt="PlusLine">
             </div>
         </div>
-
-        <!-- Left and right controls -->
         <a class="left carousel-control" href="#thriveCarousel" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
@@ -151,9 +153,10 @@
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
-    </div>
+    </section>
     
-    <div class="container">
+<!--ACTION ITEMS-->    
+    <section class="container">
         <div class="row">
             <div class="col-sm-4">
                 <a target="_blank" href="http://goo.gl/forms/N5KnJ7dSJH">
@@ -177,8 +180,9 @@
                 </a>
             </div>
         </div>
-    </div>
+    </section>
     
+<!--FOOTER-->
     <span class="anchor" id="contact"></span>
     <footer>
         <p><i><span class="fa fa-facebook"></span></i>&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/ShyWard90">www.facebook.com/ShyWard90</a></p>
@@ -191,5 +195,5 @@
     <script src="js/jquery-1.12.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
-  </body>
+</body>
 </html>
