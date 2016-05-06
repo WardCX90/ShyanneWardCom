@@ -7,6 +7,10 @@ body, html {
     padding: 0;
     margin: 0;
     font-family: 'Roboto Condensed', sans-serif;
+    background-image: url(../img/beach.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .anchor{
@@ -19,7 +23,7 @@ body, html {
 .jumbotron {
     margin-top: calc(50px + 4%) !important;
     margin-bottom: 0 !important;
-    background: $deepPurple100 !important;
+    background: rgba(255,255,255,0.75) !important;
     padding: 20% 5% !important;
     h1, p {
         text-align: center !important;
@@ -99,13 +103,13 @@ body, html {
     max-width: 200px;
     min-width: 200px;
     border-radius: 100px;
-    background: $deepPurple100;
+    background: $deepPurple500;
     margin: 0 auto;
     h1 {
         margin: 0;
         padding: 0;
         font-size: 1.5em;
-        color: $deepPurple900;
+        color: white;
         text-align: center;
         line-height: 200px;
     }
@@ -121,15 +125,21 @@ footer {
     margin-top: 4%;
     height: 400px;
     width: 100%;
-    background: $deepPurple900;
-    padding-top: 100px;
+    background: rgba(69,39,160,0.9);
+    padding-top: 50px;
     font-size: 1.5em;
+    h1 {
+        font-size: 2em;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        maring: 0;
+        padding: 0;
+    }
     p, a {
         text-align: center;
         color: white;
-        &:hover {
-            color: white;
-        }
+        &:hover {color: white;}
     }
 }
 
